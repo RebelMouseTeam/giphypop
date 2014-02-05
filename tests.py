@@ -173,6 +173,9 @@ class GiphyImageCase(TestCase):
 
 class GiphyTestCase(TestCase):
 
+    def runTest(self):
+        pass
+
     def setUp(self):
         self.g = Giphy()
 
@@ -201,7 +204,7 @@ class GiphyTestCase(TestCase):
     def test_fetch(self, requests):
         data = {'data': FAKE_DATA, 'meta': {'status': 200}}
         requests.get.return_value = requests
-        requests.json.return_value = data
+        requests.json = data
 
         assert self.g._fetch('foo') == data
 

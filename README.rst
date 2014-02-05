@@ -4,8 +4,6 @@ giphypop
 ``giphypop`` is a wrapper around the Giphy_ api. It aims to provide a more
 intuitive, pythonic way for interacting with the Giphy_ api.
 
-.. image:: https://secure.travis-ci.org/shaunduncan/giphypop.png?branch=master
-   :target: https://travis-ci.org/shaunduncan/giphypop
 
 
 Requirements, Installing, and Compatibility
@@ -24,6 +22,9 @@ Alternatively:
 
     $ pip install requests
     $ pip install -e git+https://github.com/shaunduncan/giphypop.git#egg=giphypop
+
+
+(Sam Raker adds: this fork is specifically for compatibility with requests<1.0.0)
 
 Then you should be off and running. ``giphypop`` has been tested against python
 versions 2.6, 2.7, 3.2 and 3.3.
@@ -198,15 +199,22 @@ Changelog
 
 - Initial Version
 
+0.1.1
++++
+
+- Forked by Sam Raker for compatability with requests<1.0.0
 
 Contribution and License
 ------------------------
 
 Developed by `Shaun Duncan`_ and is licensed under the terms of a MIT license.
 Contributions are welcomed and appreciated!
+Forked by `Sam Raker`_ . Licensing unchanged.
 
 
 .. _Giphy: http://giphy.com
-.. _requests: https://pypi.python.org/pypi/requests/1.2.3
+.. _requests: https://pypi.python.org/pypi/requests/0.13.0
 .. _`api docs`: http://github.com/giphy/giphyapi
 .. _`Shaun Duncan`: shaun.duncan@gmail.com
+
+.. _`Sam Raker`: sam.raker@gmail.com
