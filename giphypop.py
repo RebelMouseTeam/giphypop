@@ -313,7 +313,7 @@ class Giphy(object):
                     (limit is not None and results_yielded >= limit)):
                 raise StopIteration
 
-    def search_list(self, term=None, phrase=None, limit=DEFAULT_SEARCH_LIMIT):
+    def search_list(self, term=None, phrase=None, limit=DEFAULT_SEARCH_LIMIT, sort_recent=True):
         """
         Suppose you expect the `search` method to just give you a list rather
         than a generator. This method will have that effect. Equivalent to::
@@ -321,7 +321,7 @@ class Giphy(object):
             >>> g = Giphy()
             >>> results = [x for x in g.search('foo')]
         """
-        return [x for x in self.search(term=term, phrase=phrase, limit=limit)]
+        return [x for x in self.search(term=term, phrase=phrase, limit=limit, sort_recent)]
 
     def translate(self, term=None, phrase=None, strict=False):
         """

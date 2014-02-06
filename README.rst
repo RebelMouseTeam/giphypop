@@ -24,7 +24,7 @@ Alternatively:
     $ pip install -e git+https://github.com/shaunduncan/giphypop.git#egg=giphypop
 
 
-(Sam Raker adds: this fork is specifically for compatibility with requests<1.0.0)
+(Sam Raker adds: this fork is only compatible with requests<1.0.0)
 
 Then you should be off and running. ``giphypop`` has been tested against python
 versions 2.6, 2.7, 3.2 and 3.3.
@@ -68,11 +68,17 @@ match all words.
 Note that this method is a ``giphypop.GiphyImage`` generator that
 automatically handles api paging. Optionally accepts a limit that will
 terminate the generation after a specified number of results have been
-yielded. This defaults to 25 results; a None implies no limit
+yielded. This defaults to 25 results; a None implies no limit.
+
+Giphy's API features an undocumented 'sort' parameter. If set to
+'recent', results are returned in reverse chronological order. If not
+provided, results are returned in reverse order of relevance to the
+search query.
 
 - **term**: Search term or terms, string
 - **phrase**: Search phrase, string
 - **limit**: Maximum number of results to yield, integer
+- **sort_recent**: Sort by recency (True) or relevance (False), boolean. (Default: True)
 
 search_list
 +++++++++++
