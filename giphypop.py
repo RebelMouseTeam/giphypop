@@ -257,7 +257,7 @@ class Giphy(object):
 
         return data
 
-    def search(self, term=None, phrase=None, limit=DEFAULT_SEARCH_LIMIT):
+    def search(self, term=None, phrase=None, limit=DEFAULT_SEARCH_LIMIT, sort_recent=True):
         """
         Search for gifs with a given word or phrase. Punctuation is ignored.
         By default, this will perform a `term` search. If you want to search
@@ -286,7 +286,11 @@ class Giphy(object):
 
         results_yielded = 0  # Count how many things we yield
         page, per_page = 0, 25
-        fetch = partial(self._fetch, 'search', q=(term or phrase))
+
+        if sort_recent is True:
+            fetch = partial(self._fetch, 'search', q=(term or phrase), sort='recent')
+        else:
+            fetch = partial(self._fetch, 'search', q=(term or phrase), sort='recent')
 
         # Generate results until we 1) run out of pages 2) reach a limit
         while True:
