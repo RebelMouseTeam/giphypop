@@ -62,6 +62,181 @@ FAKE_DATA = {
     "url": "http://giphy.com/gifs/3avUsGhmckIYE"
 }
 
+FAKE_DATA_RECENT = [{u'bitly_gif_url': u'http://gph.is/1ixq1i1',
+  u'bitly_url': u'http://gph.is/1ixq1i1',
+  u'embed_url': u'http://giphy.com/embed/9cwKs74Hfwkvu',
+  u'id': u'9cwKs74Hfwkvu',
+  u'images': {u'fixed_height': {u'height': u'200',
+                                u'url': u'http://media0.giphy.com/media/9cwKs74Hfwkvu/200.gif',
+                                u'width': u'388'},
+              u'fixed_height_downsampled': {u'height': u'200',
+                                            u'url': u'http://media0.giphy.com/media/9cwKs74Hfwkvu/200_d.gif',
+                                            u'width': u'388'},
+              u'fixed_height_still': {u'height': u'200',
+                                      u'url': u'http://media0.giphy.com/media/9cwKs74Hfwkvu/200_s.gif',
+                                      u'width': u'388'},
+              u'fixed_width': {u'height': u'103',
+                               u'url': u'http://media0.giphy.com/media/9cwKs74Hfwkvu/200w.gif',
+                               u'width': u'200'},
+              u'fixed_width_downsampled': {u'height': u'103',
+                                           u'url': u'http://media0.giphy.com/media/9cwKs74Hfwkvu/200w_d.gif',
+                                           u'width': u'200'},
+              u'fixed_width_still': {u'height': u'103',
+                                     u'url': u'http://media0.giphy.com/media/9cwKs74Hfwkvu/200w_s.gif',
+                                     u'width': u'200'},
+              u'original': {u'frames': u'7',
+                            u'height': u'258',
+                            u'size': u'488020',
+                            u'url': u'http://media0.giphy.com/media/9cwKs74Hfwkvu/giphy.gif',
+                            u'width': u'500'}},
+  u'type': u'gif',
+  u'url': u'http://giphy.com/gifs/9cwKs74Hfwkvu'},
+ {u'bitly_gif_url': u'http://gph.is/N9B4o6',
+  u'bitly_url': u'http://gph.is/N9B4o6',
+  u'embed_url': u'http://giphy.com/embed/QIWpM84uTbhmg',
+  u'id': u'QIWpM84uTbhmg',
+  u'images': {u'fixed_height': {u'height': u'200',
+                                u'url': u'http://media1.giphy.com/media/QIWpM84uTbhmg/200.gif',
+                                u'width': u'258'},
+              u'fixed_height_downsampled': {u'height': u'200',
+                                            u'url': u'http://media1.giphy.com/media/QIWpM84uTbhmg/200_d.gif',
+                                            u'width': u'258'},
+              u'fixed_height_still': {u'height': u'200',
+                                      u'url': u'http://media1.giphy.com/media/QIWpM84uTbhmg/200_s.gif',
+                                      u'width': u'258'},
+              u'fixed_width': {u'height': u'155',
+                               u'url': u'http://media1.giphy.com/media/QIWpM84uTbhmg/200w.gif',
+                               u'width': u'200'},
+              u'fixed_width_downsampled': {u'height': u'155',
+                                           u'url': u'http://media1.giphy.com/media/QIWpM84uTbhmg/200w_d.gif',
+                                           u'width': u'200'},
+              u'fixed_width_still': {u'height': u'155',
+                                     u'url': u'http://media1.giphy.com/media/QIWpM84uTbhmg/200w_s.gif',
+                                     u'width': u'200'},
+              u'original': {u'frames': u'25',
+                            u'height': u'194',
+                            u'size': u'1105075',
+                            u'url': u'http://media1.giphy.com/media/QIWpM84uTbhmg/giphy.gif',
+                            u'width': u'250'}},
+  u'type': u'gif',
+  u'url': u'http://giphy.com/gifs/QIWpM84uTbhmg'},
+ {u'bitly_gif_url': u'http://gph.is/LBYtge',
+  u'bitly_url': u'http://gph.is/LBYtge',
+  u'embed_url': u'http://giphy.com/embed/mxt1DW6JbjTSo',
+  u'id': u'mxt1DW6JbjTSo',
+  u'images': {u'fixed_height': {u'height': u'200',
+                                u'url': u'http://media2.giphy.com/media/mxt1DW6JbjTSo/200.gif',
+                                u'width': u'200'},
+              u'fixed_height_downsampled': {u'height': u'200',
+                                            u'url': u'http://media2.giphy.com/media/mxt1DW6JbjTSo/200_d.gif',
+                                            u'width': u'200'},
+              u'fixed_height_still': {u'height': u'200',
+                                      u'url': u'http://media2.giphy.com/media/mxt1DW6JbjTSo/200_s.gif',
+                                      u'width': u'200'},
+              u'fixed_width': {u'height': u'200',
+                               u'url': u'http://media2.giphy.com/media/mxt1DW6JbjTSo/200w.gif',
+                               u'width': u'200'},
+              u'fixed_width_downsampled': {u'height': u'200',
+                                           u'url': u'http://media2.giphy.com/media/mxt1DW6JbjTSo/200w_d.gif',
+                                           u'width': u'200'},
+              u'fixed_width_still': {u'height': u'200',
+                                     u'url': u'http://media2.giphy.com/media/mxt1DW6JbjTSo/200w_s.gif',
+                                     u'width': u'200'},
+              u'original': {u'frames': u'4',
+                            u'height': u'500',
+                            u'size': u'88666',
+                            u'url': u'http://media2.giphy.com/media/mxt1DW6JbjTSo/giphy.gif',
+                            u'width': u'500'}},
+  u'type': u'gif',
+  u'url': u'http://giphy.com/gifs/mxt1DW6JbjTSo'}]
+
+FAKE_DATA_RELEVANT = [{u'bitly_gif_url': u'http://gph.is/XIp6Vb',
+  u'bitly_url': u'http://gph.is/XIp6Vb',
+  u'embed_url': u'http://giphy.com/embed/CHc9dLQVQOAXm',
+  u'id': u'CHc9dLQVQOAXm',
+  u'images': {u'fixed_height': {u'height': u'200',
+                                u'url': u'http://media2.giphy.com/media/CHc9dLQVQOAXm/200.gif',
+                                u'width': u'340'},
+              u'fixed_height_downsampled': {u'height': u'200',
+                                            u'url': u'http://media2.giphy.com/media/CHc9dLQVQOAXm/200_d.gif',
+                                            u'width': u'340'},
+              u'fixed_height_still': {u'height': u'200',
+                                      u'url': u'http://media2.giphy.com/media/CHc9dLQVQOAXm/200_s.gif',
+                                      u'width': u'340'},
+              u'fixed_width': {u'height': u'118',
+                               u'url': u'http://media2.giphy.com/media/CHc9dLQVQOAXm/200w.gif',
+                               u'width': u'200'},
+              u'fixed_width_downsampled': {u'height': u'118',
+                                           u'url': u'http://media1.giphy.com/media/CHc9dLQVQOAXm/200w_d.gif',
+                                           u'width': u'200'},
+              u'fixed_width_still': {u'height': u'118',
+                                     u'url': u'http://media2.giphy.com/media/CHc9dLQVQOAXm/200w_s.gif',
+                                     u'width': u'200'},
+              u'original': {u'frames': u'46',
+                            u'height': u'206',
+                            u'size': u'1021747',
+                            u'url': u'http://media0.giphy.com/media/CHc9dLQVQOAXm/giphy.gif',
+                            u'width': u'350'}},
+  u'type': u'gif',
+  u'url': u'http://giphy.com/gifs/CHc9dLQVQOAXm'},
+ {u'bitly_gif_url': u'http://gph.is/XL4dZt',
+  u'bitly_url': u'http://gph.is/XL4dZt',
+  u'embed_url': u'http://giphy.com/embed/QBtzAnMFO5i9O',
+  u'id': u'QBtzAnMFO5i9O',
+  u'images': {u'fixed_height': {u'height': u'200',
+                                u'url': u'http://media0.giphy.com/media/QBtzAnMFO5i9O/200.gif',
+                                u'width': u'306'},
+              u'fixed_height_downsampled': {u'height': u'200',
+                                            u'url': u'http://media2.giphy.com/media/QBtzAnMFO5i9O/200_d.gif',
+                                            u'width': u'306'},
+              u'fixed_height_still': {u'height': u'200',
+                                      u'url': u'http://media1.giphy.com/media/QBtzAnMFO5i9O/200_s.gif',
+                                      u'width': u'306'},
+              u'fixed_width': {u'height': u'131',
+                               u'url': u'http://media2.giphy.com/media/QBtzAnMFO5i9O/200w.gif',
+                               u'width': u'200'},
+              u'fixed_width_downsampled': {u'height': u'131',
+                                           u'url': u'http://media3.giphy.com/media/QBtzAnMFO5i9O/200w_d.gif',
+                                           u'width': u'200'},
+              u'fixed_width_still': {u'height': u'131',
+                                     u'url': u'http://media0.giphy.com/media/QBtzAnMFO5i9O/200w_s.gif',
+                                     u'width': u'200'},
+              u'original': {u'frames': u'28',
+                            u'height': u'160',
+                            u'size': u'729141',
+                            u'url': u'http://media3.giphy.com/media/QBtzAnMFO5i9O/giphy.gif',
+                            u'width': u'245'}},
+  u'type': u'gif',
+  u'url': u'http://giphy.com/gifs/QBtzAnMFO5i9O'},
+ {u'bitly_gif_url': u'http://gph.is/1jjxRxn',
+  u'bitly_url': u'http://gph.is/1jjxRxn',
+  u'embed_url': u'http://giphy.com/embed/ODy29v7YAJrck',
+  u'id': u'ODy29v7YAJrck',
+  u'images': {u'fixed_height': {u'height': u'200',
+                                u'url': u'http://media2.giphy.com/media/ODy29v7YAJrck/200.gif',
+                                u'width': u'356'},
+              u'fixed_height_downsampled': {u'height': u'200',
+                                            u'url': u'http://media2.giphy.com/media/ODy29v7YAJrck/200_d.gif',
+                                            u'width': u'356'},
+              u'fixed_height_still': {u'height': u'200',
+                                      u'url': u'http://media2.giphy.com/media/ODy29v7YAJrck/200_s.gif',
+                                      u'width': u'356'},
+              u'fixed_width': {u'height': u'112',
+                               u'url': u'http://media2.giphy.com/media/ODy29v7YAJrck/200w.gif',
+                               u'width': u'200'},
+              u'fixed_width_downsampled': {u'height': u'112',
+                                           u'url': u'http://media2.giphy.com/media/ODy29v7YAJrck/200w_d.gif',
+                                           u'width': u'200'},
+              u'fixed_width_still': {u'height': u'112',
+                                     u'url': u'http://media2.giphy.com/media/ODy29v7YAJrck/200w_s.gif',
+                                     u'width': u'200'},
+              u'original': {u'frames': u'16',
+                            u'height': u'281',
+                            u'size': u'512364',
+                            u'url': u'http://media2.giphy.com/media/ODy29v7YAJrck/giphy.gif',
+                            u'width': u'500'}},
+  u'type': u'gif',
+  u'url': u'http://giphy.com/gifs/ODy29v7YAJrck'}]
 
 class AttrDictTestCase(TestCase):
 
@@ -208,6 +383,22 @@ class GiphyTestCase(TestCase):
 
         assert self.g._fetch('foo') == data
 
+    @patch('giphypop.requests')
+    def test_fetch_sort_recent(self, requests):
+        data = {'data': FAKE_DATA_RECENT, 'meta': {'status': 200}}
+        requests.get.return_value = requests
+        requests.json = data
+
+        assert self.g._fetch('foo', recent=True) == data
+
+    @patch('giphypop.requests')
+    def test_fetch_data_sort_relevant(self, requests):
+        data = {'data': FAKE_DATA_RELEVANT, 'meta': {'status': 200}}
+        requests.get.return_value = requests
+        requests.json = data
+
+        assert self.g._fetch('foo') == data
+
     def fake_search_fetch(self, num_results, pages=3):
         self.g._fetch = Mock()
         self.g._fetch.return_value = {
@@ -215,6 +406,30 @@ class GiphyTestCase(TestCase):
             'pagination': {
                 'total_count': pages,
                 'count': 25,
+                'offset': 0
+            },
+            'meta': {'status': 200}
+        }
+
+    def fake_search_fetch_recent(self):
+        self.g._fetch = Mock()
+        self.g._fetch.return_value = {
+            'data': FAKE_DATA_RECENT,
+            'pagination': {
+                'total_count': 3,
+                'count': len(FAKE_DATA_RECENT),
+                'offset': 0
+            },
+            'meta': {'status': 200}
+        }
+
+    def fake_search_fetch_relevant(self):
+        self.g._fetch = Mock()
+        self.g._fetch.return_value = {
+            'data': FAKE_DATA_RELEVANT,
+            'pagination': {
+                'total_count': 3,
+                'count': len(FAKE_DATA_RELEVANT),
                 'offset': 0
             },
             'meta': {'status': 200}
@@ -257,6 +472,16 @@ class GiphyTestCase(TestCase):
         self.fake_search_fetch(0, pages=1)
         self.g.search(phrase='foo bar baz')
         assert self.g._fetch.called_with(q='foo-bar-baz')
+
+    def test_search_with_recent_parameter(self):
+        self.fake_search_fetch_recent()
+        results = self.g._fetch(phrase='foo', sort_recent=True)
+        assert results.get('data') == FAKE_DATA_RECENT
+
+    def test_search_with_relevant_parameter(self):
+        self.fake_search_fetch_relevant()
+        results = self.g._fetch(phrase='foo', sort_recent=False)
+        assert results.get('data') == FAKE_DATA_RELEVANT
 
     def test_translate_with_phrase_hyphenates(self):
         self.fake_fetch()
