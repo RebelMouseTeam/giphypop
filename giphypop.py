@@ -321,7 +321,7 @@ class Giphy(object):
             >>> g = Giphy()
             >>> results = [x for x in g.search('foo')]
         """
-        return [x for x in self.search(term=term, phrase=phrase, limit=limit, sort_recent)]
+        return [x for x in self.search(term=term, phrase=phrase, limit=limit, sort_recent=sort_recent)]
 
     def translate(self, term=None, phrase=None, strict=False):
         """
