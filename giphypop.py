@@ -290,11 +290,11 @@ class Giphy(object):
         if sort_recent is True:
             fetch = partial(self._fetch, 'search', q=(term or phrase), sort='recent')
         else:
-            fetch = partial(self._fetch, 'search', q=(term or phrase), sort='recent')
+            fetch = partial(self._fetch, 'search', q=(term or phrase))
 
         # Generate results until we 1) run out of pages 2) reach a limit
         while True:
-            data = fetch(offset=page, limit=per_page)
+            data = fetch(offset=page * per_page, limit=per_page)
             page += 1
 
             # Guard for empty results
