@@ -253,6 +253,8 @@ class Giphy(object):
         resp.raise_for_status()
 
         data = resp.json
+        if not data:
+            raise GiphyApiException('No data returned')
         self._check_or_raise(data.get('meta', {}))
 
         return data
