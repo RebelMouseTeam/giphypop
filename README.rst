@@ -24,7 +24,7 @@ Alternatively:
     $ pip install -e git+https://github.com/shaunduncan/giphypop.git#egg=giphypop
 
 
-(Sam Raker adds: this fork is only compatible with requests<1.0.0)
+(this fork is only compatible with 1.0.0<= requests <=2.3.0)
 
 Then you should be off and running. ``giphypop`` has been tested against python
 versions 2.6, 2.7, 3.2 and 3.3.
@@ -209,6 +209,11 @@ Changelog
 +++
 
 - Forked by Sam Raker for compatability with requests<1.0.0
+
+0.1.2
++++
+
+- Updated, compatability with 1.0.0<= requests <=2.3.0
 
 Contribution and License
 ------------------------
